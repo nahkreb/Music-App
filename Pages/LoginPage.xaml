@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicApp.Pages.LoginPage"
+             Title="LoginPage"
+             BackgroundColor="DarkSlateGrey"
+             >
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="100" >
+        <Entry x:Name="KullaniciAdiEntry" Placeholder="Kullanıcı Adı" TextColor="White" />
+        <Entry x:Name="SifreEntry" Placeholder="Şifre" IsPassword="True" TextColor="White"/>
+        <Button Text="Giriş Yap" Clicked="Button_Clicked" BackgroundColor="White"  TextColor="Black"/>
+    </StackLayout>
+</ContentPage>
