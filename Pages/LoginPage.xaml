@@ -3,11 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MusicApp.Pages.LoginPage"
              Title="LoginPage"
-             BackgroundColor="DarkSlateGrey"
-             >
-    <StackLayout VerticalOptions="CenterAndExpand" Padding="100" >
-        <Entry x:Name="KullaniciAdiEntry" Placeholder="Kullanıcı Adı" TextColor="White" />
-        <Entry x:Name="SifreEntry" Placeholder="Şifre" IsPassword="True" TextColor="White"/>
-        <Button Text="Giriş Yap" Clicked="Button_Clicked" BackgroundColor="White"  TextColor="Black"/>
+             BackgroundColor="#2B2B2B">
+    <StackLayout VerticalOptions="CenterAndExpand"
+                 Padding="100">
+        <Entry x:Name="KullaniciAdiEntry"
+               Placeholder="Kullanıcı Adı"
+               TextColor="White" />
+        <Entry x:Name="SifreEntry"
+               Placeholder="Şifre"
+               IsPassword="True"
+               TextColor="White" />
+        <Button Text="Giriş Yap"
+                Clicked="Button_Clicked"
+                BackgroundColor="White"
+                TextColor="Black" />
     </StackLayout>
 </ContentPage>

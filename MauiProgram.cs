@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using MusicApp.Pages;
+using Plugin.Maui.Audio;
 
 namespace MusicApp
 {
@@ -15,8 +17,13 @@ namespace MusicApp
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            builder.Services.AddSingleton(AudioManager.Current);
+            builder.Services.AddTransient<MainPage>();
+
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
+
+
 #endif
 
             return builder.Build();
