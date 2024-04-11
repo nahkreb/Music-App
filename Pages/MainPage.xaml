@@ -105,7 +105,8 @@
                 <!-- Sol tarafta müziğin kaçıncı dakikasında olduğunu gösteren metin -->
                 <Label Text="0:00"
                        HorizontalOptions="Start"
-                       TextColor="WhiteSmoke" />
+                       TextColor="WhiteSmoke"
+                       x:Name="Lbl_MusicNowDuration" />
 
                 <!-- İlerleme çubuğu -->
                 <ProgressBar Progress="0.5"
@@ -115,7 +116,8 @@
                 <!-- Sağ tarafta müziğin toplam süresini gösteren metin -->
                 <Label Text="3:30"
                        HorizontalOptions="End"
-                       TextColor="WhiteSmoke" />
+                       TextColor="WhiteSmoke"
+                       x:Name="Lbl_MusicDuration" />
             </StackLayout>
         </Frame>
 
