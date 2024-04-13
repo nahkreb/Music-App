@@ -109,7 +109,7 @@
                        x:Name="Lbl_MusicNowDuration" />
 
                 <!-- İlerleme çubuğu -->
-                <ProgressBar Progress="0.5"
+                <ProgressBar Progress="0.0"
                              HorizontalOptions="FillAndExpand"
                              ProgressColor="WhiteSmoke" />
 
